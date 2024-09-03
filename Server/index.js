@@ -6,7 +6,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT || 5000;
 
-mongodb.connect("mongodb+srv://abdulazeespr:Mulearn7@sportecom.9n8ib.mongodb.net/").then(()=>{
+mongodb.connect("hn").then(()=>{
     console.log("Database is connected..")
 }).catch((Error)=>{
     console.log(Error);
